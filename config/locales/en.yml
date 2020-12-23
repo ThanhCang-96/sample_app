@@ -1,33 +1,53 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  const:
+    sample: "Sample application"
+    author: "Michael Hartl"
+
+  ror: "Ruby on Rails Tutorial"
+  title: "Ruby on Rails Tutorial Sample App"
+
+  home:
+    title: "Home"
+    content_1: "Welcome to the Sample App"
+    content_2: "This is the home page for the sample application"
+    signin: "Sign up now"
+
+  about:
+    title: "About"
+    conten_1: "The Ruby on Rails Tutorial"
+    content_2: "part of the"
+    content_3: "Learn Enough"
+    content_4: "family of tutorials, is a"
+    content_5: "book"
+    and: "and"
+    content_6: "screencast series"
+    content_7: "to teach web development with"
+    ror: "Ruby on Rails"
+    content_8: "This is the sample app for the tutorial"
+
+  help:
+    title: "Help"
+    content_1: "Get help on the Ruby on Rails Tutorial at the"
+    content_2: "Rails Tutorial help page"
+    content_3: "To get help on this sample app, see the"
+    book: "Ruby on Rails
+      Tutorial book"
+
+  contact:
+    title: "Contact"
+    content_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    content_2: "contact page"
+
+  header:
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+
+  footer:
+    the: "the"
+    about : "About"
+    contact: "Contact"
+    en: "English"
+    vn: "VietNamese"
+    by: "by"
+    news: "new"

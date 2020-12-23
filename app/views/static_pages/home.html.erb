@@ -1,7 +1,11 @@
-<% provide :title, "Home" %>
-<h1>Sample App</h1>
-<p>
-	This is the home page for the
-	<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-	sample application.
-</p>
+<% provide(:title, t("home.title", locale: :en)) %>
+<div class="center jumbotron">
+  <h1><%= t("home.content_1") %></h1>
+  <h2>
+    <%= t("home.content_2") %>
+    <%= link_to t("ror"), "https://www.railstutorial.org/" %>
+    <%= t "const.sample" %>.
+  </h2>
+  <%= link_to t("home.signin"), "#", class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("img_rails.png", width: "200px", alt: "Rails logo") %>

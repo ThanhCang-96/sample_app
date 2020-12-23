@@ -1,0 +1,53 @@
+vi:
+  const:
+    sample: "Sample application"
+    author: "Michael Hartl"
+
+  ror: "Hướng dẫn về Ruby on Rails"
+
+  home:
+    title: "Home"
+    content_1: "Chào mừng đến với Sample App"
+    content_2: "Đây là trang chủ của Sample app"
+    signin: "Đăng nhập"
+
+  about:
+    title: "Thông tin về chúng tôi"
+    conten_1: "Ruby on Rails Tutorial"
+    content_2: "Hướng dẫn"
+    content_3: "Đầy đủ"
+    content_4: ", đây là"
+    content_5: "sách"
+    and: "và"
+    content_6: "chuỗi video"
+    content_7: "để học lập trình web với"
+    ror: "Ruby on Rails"
+    content_8: "Website hướng dẫn về Ruby on Rails"
+
+  help:
+    title: "Giúp đỡ"
+    content_1: "Nhận sự giúp đỡ Ruby on Rails Tutorial tại"
+    content_2: "The Rails Tutorial help page"
+    content_3: "Để nhân sự giúp dỡ về sample app, xem tại"
+    book: "sách hướng dẫn Ruby on Rails"
+
+  contact:
+    title: "Tương tác"
+    content_1: "Tương tác với  Ruby on Rails Tutorial về sample app tại"
+    content_2: "Trang tương tác"
+
+  header:
+    home: "Trang chủ"
+    help: "Giúp đỡ"
+    login: "Đăng nhập"
+
+  footer:
+    the: ""
+    about : "Website"
+    contact: "Tương tác"
+    en: "Tiếng Anh"
+    vn: "Tiếng việt"
+    by: "bởi"
+    news: "Tin tức"
+
+  title: "Hướng dẫn về Ruby on Rails"

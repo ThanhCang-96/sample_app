@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= t "footer.the" %>
+    <%= link_to t("ror"), "https://www.railstutorial.org/" %>
+    <%= t"footer.by" %>
+    <%= link_to t("const.author"), "https://www.michaelhartl.com/" %>
+    </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("footer.about"), about_path %></li>
+      <li><%= link_to t("footer.contact"), contact_path %></li>
+      <li><%= link_to t("footer.news"), "https://news.railstutorial.org/" %></li>
+      <li><%= link_to t("footer.en"), locale: :en %></li>
+      <li><%= link_to t("footer.vn"), locale: :vi %></li>
+    </ul>
+  </nav>
+</footer>
