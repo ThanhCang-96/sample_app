@@ -1,0 +1,7 @@
+user:
+  name:
+    max_lenght: 255
+  mail:
+    max_lenght: 50
+  pass:
+    min_lenght: 8
