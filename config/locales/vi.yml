@@ -1,4 +1,28 @@
 vi:
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name : "Họ tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+
+  users:
+    error: "Lỗi: không thể tìm thấy"
+    create_user_successful: "Chào mừng đến với Sample App"
+
+  errors:
+    form_massage: "Thông tin đăng kí của bạn mắc "
+  error:
+    one: "1 lỗi"
+    other: "%{count} lỗi"
+
+  new:
+    title: "Sign up"
+    create: "Tạo tài khoản"
+
   const:
     sample: "Sample application"
     author: "Michael Hartl"
