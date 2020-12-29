@@ -13,3 +13,5 @@ userhelper:
 
 session:
   remember_me: 1
+
+time_reset: 2

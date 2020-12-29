@@ -90,6 +90,7 @@ vi:
       new_user: "Tài khoản mới?"
       signup: "Đăng kí ngay!"
       remember: "Ghi nhớ tài khoản"
+      forgot_pass: "Quên mật khẩu"
 
   controller:
     user_controller:
@@ -107,6 +108,13 @@ vi:
     account_activation:
       success: "Tài khoản đã được kích hoạt"
       danger: "Đường dẫn đã được kích hoạt"
+    pass_reset:
+      create:
+        info: "Hướng dẫn đặt lại mật khẩu đã gửi đến email của bạn"
+        danger: "Địa chỉ email không được tìm thấy"
+      update:
+        erros_empty: "Không được để trống"
+        success: "Mật khẩu đã được đặt lại."
 
   users:
     edit:
@@ -124,7 +132,10 @@ vi:
 
   mailers:
     user:
-      subject: "Kích hoạt tài khoản"
+      account:
+        subject: "Kích hoạt tài khoản"
+      password:
+        subject: "Sửa đổi mật khẩu"
 
   views:
     user_mailer:
@@ -132,3 +143,15 @@ vi:
         title: "Sample App"
         hi: "Xin chào "
         contents: "Chào mừng bạn đến với Sample App! Vui lòng click vào đường link bên dưới để kích hoạt tài khoản của bạn:"
+      password_reset:
+        title: "Đặt lại mật khẩu"
+        content1: "Để đặt lại mật khẩu, vui lòng click vào đường lik bên dưới: "
+        link: "Mật khẩu"
+        content2: "Liên kết này sẽ có giá trị trong hai giờ."
+        content3: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+        btn_submit: "Cập nhật mật khẩu"
+      pass_reset:
+        new:
+          title: "Đặt lại mật khẩu"
+          btn_submit: "Xác nhận"
+
