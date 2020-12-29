@@ -11,4 +11,12 @@ class User < ApplicationRecord
   validates :password, presence: true,
     length: {minimum: Settings.user.pass.min_lenght}
   has_secure_password
+
+  def self.digest string
+    if cost = ActiveModel::SecurePassword.min_cost
+      BCrypt::Engine::MIN_COST
+    else
+      BCrypt::Password.create(string, cost: cost)
+    end
+  end
 end

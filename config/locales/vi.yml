@@ -13,6 +13,9 @@ vi:
     error: "Lỗi: không thể tìm thấy"
     create_user_successful: "Chào mừng đến với Sample App"
 
+  login:
+    invalid: "Tài khoản hoặc mật khẩu không hợp lệ"
+
   errors:
     form_massage: "Thông tin đăng kí của bạn mắc "
   error:
@@ -64,6 +67,11 @@ vi:
     home: "Trang chủ"
     help: "Giúp đỡ"
     login: "Đăng nhập"
+    signup: "Đăng kí"
+    account: "Tài khoản"
+    logout: "Đăng xuất"
+    profile: "Thông tin cá nhân"
+    setting: "Cài đặt"
 
   footer:
     the: ""
@@ -75,3 +83,9 @@ vi:
     news: "Tin tức"
 
   title: "Hướng dẫn về Ruby on Rails"
+
+  session:
+    new:
+      title: "Đăng nhập"
+      new_user: "Tài khoản mới?"
+      signup: "Đăng kí ngay!"
