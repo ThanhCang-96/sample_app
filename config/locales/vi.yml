@@ -90,3 +90,27 @@ vi:
       new_user: "Tài khoản mới?"
       signup: "Đăng kí ngay!"
       remember: "Ghi nhớ tài khoản"
+
+  controller:
+    user_controller:
+      update:
+        success: "Thông tin đã được cập nhật"
+      logged_in_user:
+        danger: "Vui lòng đăng nhập"
+      destroy:
+        success: "Xóa tài khoản thành công"
+        danger: "Xóa thất bại!"
+
+  users:
+    edit:
+      title: "Cài đặt tài khoản"
+      content: "Cập nhật tài khoản"
+      btn_save: "Lưu thay đổi"
+      change: "Thay đổi"
+    new:
+      btn_create: "Tạo tài khoản"
+    index:
+      title: "Tài khoản"
+
+  _user:
+    confirm: "Đồng ý?"
