@@ -5,6 +5,10 @@ user:
     max_lenght: 50
   pass:
     min_lenght: 8
+
 userhelper:
   gravatar_for:
     size: 80
+
+session:
+  remember_me: 1
