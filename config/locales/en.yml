@@ -38,6 +38,7 @@ en:
     content_1: "Welcome to the Sample App"
     content_2: "This is the home page for the sample application"
     signin: "Sign up now"
+    mic_feed: "Micropost Feed"
 
   about:
     title: "About"
@@ -92,6 +93,11 @@ en:
       remember: "Remember me on this computer"
       forgot_pass: "forgot password"
 
+  model:
+    micropost:
+      mess_image_1: "must be a valid image format"
+      mess_image_2: "should be less than 5MB"
+
   controller:
     user_controller:
       update:
@@ -115,6 +121,15 @@ en:
         success: "Password has been reset."
       check_expiration:
         danger: "Password reset has expired."
+    micropost:
+      create:
+        success: "Micropost created!"
+        danger: "Micropost created fail!"
+      destroy:
+        success: "Micropost deleted"
+        danger: "Deleted fail"
+      correct_user:
+        danger: "Micropost invalid"
 
   users:
     edit:
@@ -158,3 +173,17 @@ en:
       new:
         title: "Forgot password"
         btn_submit: "Submit"
+
+    micropost:
+      del_link: "delete"
+      confirm: "You sure?"
+      posted: "Posted"
+      ago: " ago."
+    shared:
+      user_info:
+        info_link: "view my profile"
+        micropost: "micropost"
+      mic_form:
+        text: "Compose new micropost..."
+        post: "Post"
+        script: "Maximum file size is 5MB. Please choose a smaller file."

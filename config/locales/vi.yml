@@ -17,7 +17,7 @@ vi:
     invalid: "Tài khoản hoặc mật khẩu không hợp lệ"
 
   errors:
-    form_massage: "Thông tin đăng kí của bạn mắc "
+    form_massage: "Thông tin của bạn mắc "
   error:
     one: "1 lỗi"
     other: "%{count} lỗi"
@@ -37,6 +37,7 @@ vi:
     content_1: "Chào mừng đến với Sample App"
     content_2: "Đây là trang chủ của Sample app"
     signin: "Đăng nhập"
+    mic_feed: "Các bài viết đã đăng"
 
   about:
     title: "Thông tin về chúng tôi"
@@ -92,6 +93,11 @@ vi:
       remember: "Ghi nhớ tài khoản"
       forgot_pass: "Quên mật khẩu"
 
+  model:
+    micropost:
+      mess_image_1: "Định dạng hình ảnh không hợp lệ"
+      mess_image_2: "Phải nhỏ hơn 5MB"
+
   controller:
     user_controller:
       update:
@@ -115,6 +121,15 @@ vi:
       update:
         erros_empty: "Không được để trống"
         success: "Mật khẩu đã được đặt lại."
+    micropost:
+      create:
+        success: "Đã tạo thành công!"
+        danger: "Thất bại!"
+      destroy:
+        success: "Đã xóa"
+        danger: "Xóa thất bại"
+      correct_user:
+        danger: "Bài viết không hợp lệ!"
 
   users:
     edit:
@@ -155,3 +170,16 @@ vi:
           title: "Đặt lại mật khẩu"
           btn_submit: "Xác nhận"
 
+    micropost:
+      del_link: "Xóa"
+      confirm: "Đồng ý?"
+      posted: "Đăng"
+      ago: " trước."
+    shared:
+      user_info:
+        info_link: "Xem hồ sơ của tôi"
+        micropost: "Bài viết"
+      mic_form:
+        text: "Bài viết mới..."
+        post: "Đăng"
+        script: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."

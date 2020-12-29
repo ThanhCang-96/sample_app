@@ -1,11 +1,28 @@
 <% provide(:title, t("home.title", locale: :en)) %>
-<div class="center jumbotron">
-  <h1><%= t("home.content_1") %></h1>
-  <h2>
-    <%= t("home.content_2") %>
-    <%= link_to t("ror"), "https://www.railstutorial.org/" %>
-    <%= t "const.sample" %>.
-  </h2>
-  <%= link_to t("home.signin"), "#", class: "btn btn-lg btn-primary" %>
-</div>
-<%= link_to image_tag("img_rails.png", width: "200px", alt: "Rails logo") %>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "home.mic_feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t("home.content_1") %></h1>
+    <h2>
+      <%= t("home.content_2") %>
+      <%= link_to t("ror"), "https://www.railstutorial.org/" %>
+      <%= t "const.sample" %>.
+    </h2>
+    <%= link_to t("home.signin"), "#", class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("img_rails.png", width: "200px", alt: "Rails logo") %>
+<% end %>
