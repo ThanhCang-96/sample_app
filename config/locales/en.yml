@@ -1,4 +1,28 @@
 en:
+  activerecord:
+    models:
+      user: User
+    attributes:
+      user:
+        name : "name"
+        email: "email"
+        password: "password"
+        password_confirmation: "password_confirmation"
+
+  users:
+    error: "error: can't found"
+    create_user_successful: "Welcome to the Sample App"
+
+  errors:
+    form_massage: "The form contains"
+  error:
+    one: "1 error"
+    other: "%{count} errors"
+
+  new:
+    title: "Sign up"
+    create: "Create my account"
+
   const:
     sample: "Sample application"
     author: "Michael Hartl"
