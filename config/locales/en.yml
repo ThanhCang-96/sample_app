@@ -13,6 +13,9 @@ en:
     error: "error: can't found"
     create_user_successful: "Welcome to the Sample App"
 
+  login:
+    invalid: "Invalid email/password combination"
+
   errors:
     form_massage: "The form contains"
   error:
@@ -66,6 +69,11 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    signup: "Signup"
+    account: "Account"
+    logout: "Log out"
+    profile: "Profile"
+    setting: "Setting"
 
   footer:
     the: "the"
@@ -75,3 +83,9 @@ en:
     vn: "VietNamese"
     by: "by"
     news: "new"
+
+  session:
+    new:
+      title: "Log in"
+      new_user: "New user?"
+      signup: "Sign up now!"
