@@ -23,7 +23,7 @@ vi:
     other: "%{count} lỗi"
 
   new:
-    title: "Sign up"
+    title: "Đăng kí tài khoản"
     create: "Tạo tài khoản"
 
   const:
@@ -86,6 +86,7 @@ vi:
 
   session:
     new:
-      title: "Đăng nhập"
+      login: "Đăng nhập"
       new_user: "Tài khoản mới?"
       signup: "Đăng kí ngay!"
+      remember: "Ghi nhớ tài khoản"

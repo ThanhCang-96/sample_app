@@ -86,6 +86,7 @@ en:
 
   session:
     new:
-      title: "Log in"
+      login: "Log in"
       new_user: "New user?"
       signup: "Sign up now!"
+      remember: "Remember me on this computer"
