@@ -100,6 +100,13 @@ vi:
       destroy:
         success: "Xóa tài khoản thành công"
         danger: "Xóa thất bại!"
+      create:
+        info: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+    session:
+      warning: "Tài khoản chưa được kích hoạt.Vui lòng kiểm tra email theo đường dẫn"
+    account_activation:
+      success: "Tài khoản đã được kích hoạt"
+      danger: "Đường dẫn đã được kích hoạt"
 
   users:
     edit:
@@ -114,3 +121,14 @@ vi:
 
   _user:
     confirm: "Đồng ý?"
+
+  mailers:
+    user:
+      subject: "Kích hoạt tài khoản"
+
+  views:
+    user_mailer:
+      account_active:
+        title: "Sample App"
+        hi: "Xin chào "
+        contents: "Chào mừng bạn đến với Sample App! Vui lòng click vào đường link bên dưới để kích hoạt tài khoản của bạn:"

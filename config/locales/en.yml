@@ -99,6 +99,11 @@ en:
       destroy:
         success: "User deleted"
         danger: "Delete fail!"
+    session:
+      warning: "Account not activated. Check your email for the activation link."
+    account_activation:
+      success: "Account activated!"
+      danger: "Invalid activation link"
 
   users:
     edit:
@@ -113,3 +118,16 @@ en:
 
   _user:
     confirm: "You sure?"
+
+  mailers:
+    user:
+      subject: "Account activation"
+
+  views:
+    user_mailer:
+      account_active:
+        title: "Sample App"
+        hi: "Hi "
+        contents: "Welcome to the Sample App! Click on the link below to activate your account:"
+        link: "Activate"
+
