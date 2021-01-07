@@ -1,5 +1,6 @@
 user:
   name:
+    size: 50
     max_lenght: 255
   mail:
     max_lenght: 50

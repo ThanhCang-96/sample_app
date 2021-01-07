@@ -90,3 +90,26 @@ en:
       new_user: "New user?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+  controller:
+    user_controller:
+      update:
+        success: "Profile updated"
+      logged_in_user:
+        danger: "Please log in."
+      destroy:
+        success: "User deleted"
+        danger: "Delete fail!"
+
+  users:
+    edit:
+      title: "Edit user"
+      content: "Update your profile"
+      btn_save: "Save changes"
+      change: "change"
+    new:
+      btn_create: "Create my account"
+    index:
+      title: "All users"
+
+  _user:
+    confirm: "You sure?"
