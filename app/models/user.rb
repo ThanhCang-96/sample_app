@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -33,7 +34,7 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, User.digest(remember_token))
   end
 
-  def authenticated?(attribute, token)
+  def authenticated? attribute, token
     digest = self.send("#{attribute}_digest")
     return false unless digest
 
@@ -65,6 +66,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.time_reset.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private

@@ -5,12 +5,13 @@ Rails.application.routes.draw do
     get "/contact", to: "static_pages#contact"
     root "static_pages#home"
     get "/signup", to: "users#new"
-    resources :users
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"
     delete "/logout", to: "sessions#destroy"
     get "/users", to: "users#index"
+    resources :users
     resources :account_activations, only: :edit
     resources :password_resets, except: %i(index destroy)
+    resources :microposts, only: %i(create destroy)
   end
 end

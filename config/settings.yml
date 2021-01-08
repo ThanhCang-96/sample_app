@@ -14,4 +14,13 @@ userhelper:
 session:
   remember_me: 1
 
+micropost:
+  content:
+    max_lenght: 140
+  user_size: 50
+
 time_reset: 2
+
+image:
+  size: 5
+  resize: 500
