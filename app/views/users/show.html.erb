@@ -8,6 +8,7 @@
       </h1>
     </section>
   </aside>
+  <%= render t("views.users.show.follow_form") if logged_in? %>
   <div class="col-md-8">
     <% if @user.microposts.any? %>
       <h3>Microposts (<%= @user.microposts.count %>)</h3>

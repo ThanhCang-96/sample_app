@@ -182,3 +182,13 @@ vi:
         text: "Bài viết mới..."
         post: "Đăng"
         script: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    users:
+      follow_form:
+        unfollow: "unfollow"
+        follow: "follow"
+      follow:
+        btn_f: "Theo dõi"
+      unfollow:
+        btn_unf: "Bỏ theo dõi"
+      show:
+          follow_form: "follow_form"

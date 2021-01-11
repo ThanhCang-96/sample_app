@@ -15,7 +15,6 @@ gem "puma", "~> 4.1"
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 gem "rails-i18n"
 gem "sass-rails", ">= 6"
-gem "sqlite3", "~> 1.4"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
 gem "will_paginate", "3.1.8"
@@ -46,4 +45,11 @@ group :development, :test do
   gem "rubocop", "~> 0.74.0", require: false
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
+end
+
+group :development do
+  gem "sqlite3"
+end
+group :production do
+  gem "pg"
 end

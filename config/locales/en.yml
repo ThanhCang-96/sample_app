@@ -187,4 +187,15 @@ en:
         text: "Compose new micropost..."
         post: "Post"
         script: "Maximum file size is 5MB. Please choose a smaller file."
+    users:
+      follow_form:
+        unfollow: "unfollow"
+        follow: "follow"
+      follow:
+        btn_f: "Follow"
+      unfollow:
+        btn_unf: "Unfollow"
+      show:
+        follow_form: "follow_form"
+
 
